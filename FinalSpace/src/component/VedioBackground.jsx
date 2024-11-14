@@ -10,6 +10,10 @@ function VedioBackground() {
         <video autoPlay muted loop className = "video-background">
             <source src={FPVDrone} type="video/mp4"/>
         </video>
+        <div className="search-container">
+          <input type="text" placeholder='Enter the product' className='Search-input' />
+          <button className="search-button">Search</button>
+        </div>
       </div>
       
     </div>
